@@ -1,6 +1,6 @@
 # BrezyWeather Forecast Infrastructure
 
-Demo repository for the Code with Praveen video "Let Claude Code Change Your Azure Infrastructure Safely". A Bicep storage account, with Claude Code permission rules that allow what-if, ask before a deployment, and deny deletes.
+Demo repository for the Code with Praveen video "Let Claude Code Change Azure Safely with Bicep what-if". A Bicep storage account, with Claude Code permission rules that allow what-if, ask before a deployment, and deny deletes.
 
 ## Requirements
 
