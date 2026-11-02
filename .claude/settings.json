@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "defaultMode": "default",
+    "allow": [
+      "Edit(*.bicep)",
+      "Edit(*.bicepparam)",
+      "Bash(az bicep build *)",
+      "Bash(az account show *)",
+      "Bash(az group show *)",
+      "Bash(az deployment group what-if *)",
+      "Bash(az deployment group show *)",
+      "Bash(az resource list *)",
+      "Bash(az lock list *)",
+      "Bash(az storage account show *)"
+    ],
+    "ask": [
+      "Bash(az deployment group create *)"
+    ],
+    "deny": [
+      "Bash(az group delete *)",
+      "Bash(az resource delete *)",
+      "Bash(az storage account delete *)"
+    ]
+  }
+}
